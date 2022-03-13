@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args)
@@ -16,13 +18,14 @@ public class Main {
         short b = 20;
         int u = 30;
         long z = 5000;
-
         float o = 3.5F;
         double h = 6.6;
-     //non Primitive
 
         char myFirstLetter = 'A'; //single cot
         boolean isDone = true;
+
+        //non-Primitive
+        String name = "Ashraf Fathalla";
 
     }
 }
