@@ -1,12 +1,11 @@
 package com.company;
-
-import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args)
     {
-	 int x = 4;
+	 /* int x = 4;
      System.out.println(x);
      //reassign value
      x = 8;
@@ -24,8 +23,16 @@ public class Main {
         char myFirstLetter = 'A'; //single cot
         boolean isDone = true;
 
-        //non-Primitive
+        //non-Primitive String-array-
         String name = "Ashraf Fathalla";
+        */
 
+        Scanner userInput = new Scanner(System.in);
+        System.out.println("Please enter your name");
+        String name = userInput.next();
+        System.out.println("welcome " + name);
+        System.out.println("please " + name + " Tell me about your age");
+        int age =  userInput.nextInt();
+        System.out.println("welcome " + name + " your age is " + age);
     }
 }
