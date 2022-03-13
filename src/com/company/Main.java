@@ -31,7 +31,7 @@ public class Main {
         System.out.println("Please enter your name");
         String name = userInput.next();
         System.out.println("welcome " + name);
-        System.out.println("please " + name + " Tell me about your age");
+        System.out.println("please " + name + " Tell me about your age !");
         int age =  userInput.nextInt();
         System.out.println("welcome " + name + " your age is " + age);
     }
