@@ -1,4 +1,5 @@
 package com.company;
+
 import java.util.Scanner;
 
 public class Main {
@@ -25,7 +26,7 @@ public class Main {
 
         //non-Primitive String-array-
         String name = "Ashraf Fathalla";
-        */
+
 
         Scanner userInput = new Scanner(System.in);
         System.out.println("Please enter your name");
@@ -34,5 +35,22 @@ public class Main {
         System.out.println("please " + name + " Tell me about your age !");
         int age =  userInput.nextInt();
         System.out.println("welcome " + name + " your age is " + age);
+        */
+
+       int result  =  mul(2,5);
+        System.out.println(result);
+    }
+
+
+    ///Method to sum 2 num
+    public static void add(int num1, int num2) {
+        System.out.println(num1 + num2);
+    }
+
+    //method return int
+
+    public  static  int mul(int x, int y)
+    {
+        return  x * y;
     }
 }
