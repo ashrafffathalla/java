@@ -3,9 +3,8 @@ package com.company;
 import java.util.Scanner;
 
 public class Main {
-
-    public static void main(String[] args)
-    {
+    static  int x = 10;
+    public static void main(String[] args) {
 	 /* int x = 4;
      System.out.println(x);
      //reassign value
@@ -40,14 +39,32 @@ public class Main {
 //       int result  =  mul(2,5);
 //        System.out.println(result);
 // if condition
-        int x = 10;
-        int y = 20;
+       /* int x = 20;
+        int y = 9;
         int result = x + y;
-        if(result > 18)
-        {
-            System.out.println("You have Permetions");
-        }
+        if (result > 18) {
+            System.out.println("You have Allowed");
+        } else if (result > 10) {
+            System.out.println("you are to young and more ");
+        } else {
+            System.out.println("you are to young");
+        }*/
+
+        System.out.println(x);
+        add();
+
     }
+    public  static  void  add(){
+        x = 22;
+        System.out.println(x);
+
+    }
+
+
+
+
+
+}
 
 //
 //    ///Method to sum 2 num
@@ -61,4 +78,4 @@ public class Main {
 //    {
 //        return  x * y;
 //    }
-}
+
