@@ -36,21 +36,29 @@ public class Main {
         int age =  userInput.nextInt();
         System.out.println("welcome " + name + " your age is " + age);
         */
-
-       int result  =  mul(2,5);
-        System.out.println(result);
+//
+//       int result  =  mul(2,5);
+//        System.out.println(result);
+// if condition
+        int x = 10;
+        int y = 20;
+        int result = x + y;
+        if(result > 18)
+        {
+            System.out.println("You have Permetions");
+        }
     }
 
-
-    ///Method to sum 2 num
-    public static void add(int num1, int num2) {
-        System.out.println(num1 + num2);
-    }
-
-    //method return int
-
-    public  static  int mul(int x, int y)
-    {
-        return  x * y;
-    }
+//
+//    ///Method to sum 2 num
+//    public static void add(int num1, int num2) {
+//        System.out.println(num1 + num2);
+//    }
+//
+//    //method return int
+//
+//    public  static  int mul(int x, int y)
+//    {
+//        return  x * y;
+//    }
 }
