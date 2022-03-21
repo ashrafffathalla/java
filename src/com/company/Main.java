@@ -65,16 +65,22 @@ public class Main {
 
 
 //Start For LOOP
-        for (int i = 0; i< 10; i++)
-        {
+        for (int i = 0; i < 10; i++) {
             System.out.println("I love My team");
         }
-        int i = 0;
-        while ( i< 10)
-        {
+        //while
+//        int i = 0;
+//        while ( i < 10)
+//        {
+//            System.out.println(i);
+//            i++;
+//        }
+
+        int i = 11;
+        do {
             System.out.println(i);
             i++;
-        }
+        } while (i <= 10);
         //END FOR LOOP
     }
 }
