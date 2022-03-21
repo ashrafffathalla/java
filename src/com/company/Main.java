@@ -69,6 +69,12 @@ public class Main {
         {
             System.out.println("I love My team");
         }
+        int i = 0;
+        while ( i< 10)
+        {
+            System.out.println(i);
+            i++;
+        }
         //END FOR LOOP
     }
 }
