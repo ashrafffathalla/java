@@ -76,7 +76,7 @@ public class Main {
 //            i++;
 //        }
 
-        int i = 11;
+        int i = 10;
         do {
             System.out.println(i);
             i++;
