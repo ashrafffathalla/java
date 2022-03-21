@@ -3,7 +3,8 @@ package com.company;
 import java.util.Scanner;
 
 public class Main {
-    static  int x = 10;
+    static int x = 10;
+
     public static void main(String[] args) {
 	 /* int x = 4;
      System.out.println(x);
@@ -34,7 +35,7 @@ public class Main {
         System.out.println("please " + name + " Tell me about your age !");
         int age =  userInput.nextInt();
         System.out.println("welcome " + name + " your age is " + age);
-        */
+
 //
 //       int result  =  mul(2,5);
 //        System.out.println(result);
@@ -48,7 +49,7 @@ public class Main {
             System.out.println("you are to young and more ");
         } else {
             System.out.println("you are to young");
-        }*/
+        }
 
         System.out.println(x);
         add();
@@ -60,10 +61,16 @@ public class Main {
 
     }
 
+*/
 
 
-
-
+//Start For LOOP
+        for (int i = 0; i< 10; i++)
+        {
+            System.out.println("I love My team");
+        }
+        //END FOR LOOP
+    }
 }
 
 //
