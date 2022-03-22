@@ -76,12 +76,27 @@ public class Main {
 //            i++;
 //        }
 
-        int i = 10;
-        do {
-            System.out.println(i);
-            i++;
-        } while (i <= 10);
-        //END FOR LOOP
+//        int i = 10;
+//        do {
+//            System.out.println(i);
+//            i++;
+//        } while (i <= 10);
+
+        // Switch Case
+        int myFavNum = 15;
+        switch (myFavNum){
+            case 10:
+                System.out.println("number is 10");
+                break;
+            case 15:
+                System.out.println("number is 15");
+                break;
+            case 20:
+                System.out.println("number is 20");
+                break;
+
+        }
+        // END FOR LOOP
     }
 }
 
