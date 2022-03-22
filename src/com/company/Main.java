@@ -83,20 +83,70 @@ public class Main {
 //        } while (i <= 10);
 
         // Switch Case
-        int myFavNum = 15;
-        switch (myFavNum){
-            case 10:
-                System.out.println("number is 10");
-                break;
-            case 15:
-                System.out.println("number is 15");
-                break;
-            case 20:
-                System.out.println("number is 20");
-                break;
+//        int myFavNum = 5;
+//        switch (myFavNum){
+//            case 10:
+//                System.out.println("number is 10");
+//                break;
+//            case 15:
+//                System.out.println("number is 15");
+//                break;
+//
+//            case 20:
+//                System.out.println("number is 20");
+//                break;
+//            default:
+//                System.out.println("Not match");
+//
+//        }
 
+        ///////////////////////////////////////////////////////////////////
+//        System.out.println("Pls inter your favourite number");
+//        Scanner userInput = new Scanner(System.in);
+//        int userNumber = userInput.nextInt();
+//        switch (userNumber){
+//            case 0:
+//                System.out.println("Your fav num is 0");
+//                break;
+//            case 10:
+//                System.out.println("Your fav num is 10");
+//                break;
+//            case 20:
+//                System.out.println("Your fav num is 20");
+//                break;
+//            case 100:
+//                System.out.println("Your fav num is 100");
+//                break;
+//            default:
+//                System.out.println("Ay kalam");
+//
+//        }
+        System.out.println("PLS enter first Number");
+        Scanner userInput = new Scanner(System.in);
+        int firstNum = userInput.nextInt();
+
+        System.out.println("PLS enter first Number");
+        int secNum = userInput.nextInt();
+        System.out.println("PLS choose an operation>>>>>> +,-,*,/");
+        String userOperation =userInput.next();
+        switch (userOperation){
+            case"+":
+                System.out.println(firstNum+secNum);
+                break;
+            case "-":
+                System.out.println(firstNum-secNum);
+                break;
+            case "*":
+                System.out.println(firstNum*secNum);
+                break;
+            case "/":
+                System.out.println(firstNum/secNum);
+                break;
+            default:
+                System.out.println("Pls enter a Operation");
         }
-        // END FOR LOOP
+//        // END FOR LOOP
+
     }
 }
 
