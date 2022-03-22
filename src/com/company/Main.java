@@ -128,19 +128,19 @@ public class Main {
         System.out.println("PLS enter first Number");
         int secNum = userInput.nextInt();
         System.out.println("PLS choose an operation>>>>>> +,-,*,/");
-        String userOperation =userInput.next();
-        switch (userOperation){
-            case"+":
-                System.out.println(firstNum+secNum);
+        String userOperation = userInput.next();
+        switch (userOperation) {
+            case "+":
+                System.out.println(firstNum + secNum);
                 break;
             case "-":
-                System.out.println(firstNum-secNum);
+                System.out.println(firstNum - secNum);
                 break;
             case "*":
-                System.out.println(firstNum*secNum);
+                System.out.println(firstNum * secNum);
                 break;
             case "/":
-                System.out.println(firstNum/secNum);
+                System.out.println(firstNum / secNum);
                 break;
             default:
                 System.out.println("Pls enter a Operation");
