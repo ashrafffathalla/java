@@ -65,9 +65,9 @@ public class Main {
 
 
 //Start For LOOP
-        for (int i = 0; i < 10; i++) {
-            System.out.println("I love My team");
-        }
+//        for (int i = 0; i < 10; i++) {
+//            System.out.println("I love My team");
+//        }
         //while
 //        int i = 0;
 //        while ( i < 10)
@@ -121,31 +121,44 @@ public class Main {
 //                System.out.println("Ay kalam");
 //
 //        }
-        System.out.println("PLS enter first Number");
-        Scanner userInput = new Scanner(System.in);
-        int firstNum = userInput.nextInt();
-
-        System.out.println("PLS enter first Number");
-        int secNum = userInput.nextInt();
-        System.out.println("PLS choose an operation>>>>>> +,-,*,/");
-        String userOperation = userInput.next();
-        switch (userOperation) {
-            case "+":
-                System.out.println(firstNum + secNum);
-                break;
-            case "-":
-                System.out.println(firstNum - secNum);
-                break;
-            case "*":
-                System.out.println(firstNum * secNum);
-                break;
-            case "/":
-                System.out.println(firstNum / secNum);
-                break;
-            default:
-                System.out.println("Pls enter a Operation");
-        }
+//        System.out.println("PLS enter first Number");
+//        Scanner userInput = new Scanner(System.in);
+//        int firstNum = userInput.nextInt();
+//
+//        System.out.println("PLS enter first Number");
+//        int secNum = userInput.nextInt();
+//        System.out.println("PLS choose an operation>>>>>> +,-,*,/");
+//        String userOperation = userInput.next();
+//        switch (userOperation) {
+//            case "+":
+//                System.out.println(firstNum + secNum);
+//                break;
+//            case "-":
+//                System.out.println(firstNum - secNum);
+//                break;
+//            case "*":
+//                System.out.println(firstNum * secNum);
+//                break;
+//            case "/":
+//                System.out.println(firstNum / secNum);
+//                break;
+//            default:
+//                System.out.println("Pls enter a Operation");
+//        }
 //        // END FOR LOOP
+
+
+        ////////////////////////////start catch tray
+
+        try {
+            int x = 10;
+            int z = 0;
+            System.out.println(x / z);
+        } catch (Exception exception)
+        {
+            System.out.println("you cant divide by zero ");
+        }
+        ////////////////////////////end catch tray
 
     }
 }
