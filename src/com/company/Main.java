@@ -152,11 +152,13 @@ public class Main {
 
         try {
             int x = 10;
-            int z = 0;
+            int z = 2;
             System.out.println(x / z);
         } catch (Exception exception)
         {
             System.out.println("you cant divide by zero ");
+        }finally {
+            System.out.println("Ashraf fathalla");
         }
         ////////////////////////////end catch tray
 
